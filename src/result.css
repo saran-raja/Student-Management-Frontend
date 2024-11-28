@@ -1,0 +1,58 @@
+.result-page {
+  font-family: "Arial", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+.header {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+.header p {
+  margin: 0;
+  font-size: 1em;
+}
+.header h2,
+.header h3 {
+  margin: 5px 0;
+}
+.student-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.details p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+.photo img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ccc;
+}
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.results-table th,
+.results-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.footer {
+  text-align: left;
+  margin-top: 20px;
+}
+.footer p {
+  margin: 5px 0;
+}

@@ -93,53 +93,53 @@ const LandingPage = () => {
     }
   }, []);
   const deleteUrl = {
-    url: `http://localhost:8081/form/deleteUser/${paramsData?.rollNumber}`,
+    url: `https://student-management-backend-api.onrender.com/form/deleteUser/${paramsData?.rollNumber}`,
     method: "delete",
   };
   const updateUrl = {
-    url: `http://localhost:8081/form/updateUser/${paramsData}`,
+    url: `https://student-management-backend-api.onrender.com/form/updateUser/${paramsData}`,
     method: "put",
   };
   const subjectUrl = {
-    url: "http://localhost:8081/form/addMarks",
+    url: "https://student-management-backend-api.onrender.com/form/addMarks",
     method: "post",
   };
   const viewResultUrl = {
-    url: "http://localhost:8081/form/viewResult",
+    url: "https://student-management-backend-api.onrender.com/form/viewResult",
     method: "post",
   };
   const viewSubjectUrl = {
-    url: "http://localhost:8081/form/viewSubject",
+    url: "https://student-management-backend-api.onrender.com/form/viewSubject",
     method: "post",
   };
   const findMarksUrl = {
-    url: "http://localhost:8081/form/findMarks",
+    url: "https://student-management-backend-api.onrender.com/form/findMarks",
     method: "post",
   };
   const updateMarkUrl = {
-    url: `http://localhost:8081/form/updateMarks/${paramsData.rollNumber}/${paramsData.semester}`,
+    url: `https://student-management-backend-api.onrender.com/form/updateMarks/${paramsData.rollNumber}/${paramsData.semester}`,
     method: "put",
   };
   const addSubjectUrl = {
-    url: "http://localhost:8081/form/addSubject",
+    url: "https://student-management-backend-api.onrender.com/form/addSubject",
     method: "post",
   };
   const maxRollNumberUrl = {
-    url: "http://localhost:8081/form/rollnumber",
+    url: "https://student-management-backend-api.onrender.com/form/rollnumber",
     method: "get",
   };
   const getAllMarksUrl = {
-    url: `http://localhost:8081/form/getAllMarks/${deleteMarkParams}`,
+    url: `https://student-management-backend-api.onrender.com/form/getAllMarks/${deleteMarkParams}`,
     method: "get",
   };
   // console.log(getAllMarksUrl);
 
   const viewMarksUrl = {
-    url: `http://localhost:8081/form/viewMarks/${paramsData.viewMarksRollnumber}`,
+    url: `https://student-management-backend-api.onrender.com/form/viewMarks/${paramsData.viewMarksRollnumber}`,
     method: "get",
   };
   const userUrl = {
-    url: "http://localhost:8081/form/getAll",
+    url: "https://student-management-backend-api.onrender.com/form/getAll",
     method: "get",
     // headers: { Authorization: `Bearer ${token}` },
   };

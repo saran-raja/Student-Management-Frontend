@@ -31,12 +31,12 @@ const Register = () => {
   const [loadingRoles, setLoadingRoles] = useState(true);
 
   const userRegisterUrl = {
-    url: "http://localhost:8081/form/register",
+    url: "https://student-management-backend-api.onrender.com/form/register",
     method: "post",
   };
 
   const fetchRoleUrl = {
-    url: "http://localhost:8081/form/role",
+    url: "https://student-management-backend-api.onrender.com/form/role",
     method: "get",
   };
 

@@ -5,11 +5,9 @@ function Api(url) {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     setLoading(true);
-
-    axios
+     axios
       .get(url)
       .then((response) => {
         setData(response.data);

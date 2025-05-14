@@ -14,7 +14,7 @@ const DeleteMarks = ({
 }) => {
   const [deleteMarksParams, setDeleteMarksParams] = useState(0);
   const deleteMarksUrl = {
-    url: `http://localhost:8081/form/deleteMarks/${deleteMarksParams}`,
+    url: `https://student-management-backend-api.onrender.com/form/deleteMarks/${deleteMarksParams}`,
     method: "delete",
   };
   const { stateData: deleteMarks, fetchData: setDeleteMarks } =

@@ -10,7 +10,7 @@ const AddUser = ({
   newUserData,
   setNewUserData,
 }) => {
-  const postUrl = { url: "http://localhost:8081/form/addUser", method: "post" };
+  const postUrl = { url: "https://student-management-backend-api.onrender.com/form/addUser", method: "post" };
   const { stateData: addUserResponse, fetchData: addUser } = UseApi(postUrl);
   const [customQualification, setCustomQualificationVisible] = useState();
   const handleNewUserChange = (event, modal) => {

@@ -3,8 +3,6 @@ import UseApi from "../../useApi";
 import { useNavigate } from "react-router-dom";
 
 const UseLogin = () => {
-  //   const [role, setRole] = useState({});
-  //   console.log("from uselogin", role);
 
   const [LoginResponse, setLoginResponse] = useState({
     email: "",

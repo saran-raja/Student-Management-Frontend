@@ -8,8 +8,7 @@ const DeleteMarks = ({
   closeModal,
   selectedItems,
   setSelectedItems,
-  getStudentDetails,
-  openNotification,
+   openNotification,
   setDeleteMarkParams,
 }) => {
   const [deleteMarksParams, setDeleteMarksParams] = useState(0);

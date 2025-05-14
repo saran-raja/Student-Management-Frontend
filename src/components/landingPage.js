@@ -8,14 +8,11 @@ import {
   Table,
   Spinner,
   Form,
-  Row,
-  Col,
   Modal,
   CloseButton,
   Navbar,
   Container,
-  Nav,
-  NavDropdown,
+  Nav
 } from "react-bootstrap";
 import EditMarksModal from "./editmarks";
 import AddSubject from "./addSubject";
@@ -83,8 +80,6 @@ const LandingPage = () => {
   notification.config({
     top: 64,
   });
-  const { userLoginData } = UseLogin();
-  // console.log(userLoginData);
   
   useEffect(() => {
     const storedToken = localStorage.getItem("token");

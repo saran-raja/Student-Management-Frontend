@@ -1,24 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Modal, Form, Button, CloseButton } from "react-bootstrap";
 
 const Modals = ({
   visibleModal,
   closeModal,
-  newUserData,
-  handleNewUserChange,
-  handleNewUserSubmit,
-  handleEditSubmit,
-  handleEditInput,
-  updateData,
   handleAddSubject,
   addSubject,
   handleViewResultInput,
   handleViewResultSubmit,
   viewResultData,
-  viewSubjectData,
   addMarksFormValue,
-  submitSemesterPage,
+ 
 }) => {
   return (
     <div>

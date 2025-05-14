@@ -12,8 +12,10 @@ import {
   CloseButton,
   Navbar,
   Container,
+  Col,
   Nav
 } from "react-bootstrap";
+
 import EditMarksModal from "./editmarks";
 import AddSubject from "./addSubject";
 import { notification, Pagination, Select } from "antd";

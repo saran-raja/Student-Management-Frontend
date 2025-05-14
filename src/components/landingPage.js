@@ -208,7 +208,7 @@ const LandingPage = () => {
     localStorage.removeItem("username");
     localStorage.removeItem("role");
     localStorage.removeItem("token");
-    navigate("/login");
+    navigate("/");
   };
   useEffect(() => {
     const storedUsername = localStorage.getItem("username");
